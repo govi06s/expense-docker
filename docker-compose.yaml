@@ -16,7 +16,7 @@ services:
     depends_on:
     - mysql
   frontend:
-    image: govi06/frontend
+    image: govi06/frontend:v1
     container_name: frontend
     ports:
     - 80:80
